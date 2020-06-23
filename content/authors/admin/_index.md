@@ -20,17 +20,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: bio.
 
-interests:
-- Microéconomie du risque
-- Finance/assurance
-
-education:
-  courses:
-  - course: TDoctorat d'économie
-    year: 2000
-  - course: Agrégation d'économie et gestion
-    year: 1996
-
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -64,4 +53,4 @@ social:
 # - Visitors
 ---
 
-# Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. 
+Un blog académique sur la gestion de patrimoine.
