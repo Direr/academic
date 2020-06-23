@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Enseignant chercheur en économie
+role: Professeur d'économie
 
 # Organizations/Affiliations
 organizations:
-- name: Site personnel
+- name: page professionelle
   url: "http://gdre.leo-univ-orleans.fr/direr/index.html"
 
 # Short bio (displayed in user profile at end of posts)
