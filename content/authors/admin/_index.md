@@ -55,4 +55,4 @@ social:
 
 Un blog académique sur l'épargne, la finance et la gestion de patrimoine.
 
-[Premier post](../post/inventaire.md)
+[Premier post](../post/inventaire/)
