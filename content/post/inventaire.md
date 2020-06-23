@@ -16,3 +16,5 @@ header:
 ---
 
 ## Vous souhaitez allouer votre richesse entre différentes classes d'actifs ? Commencer par faire son inventaire, sans en oublier l'essentiel.
+
+$$ a=b $$
