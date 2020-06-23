@@ -1,5 +1,5 @@
 ---
-title: An example title
+title: Mettre tout sur la table avant de répartir
 summary: Here we describe how to add a page to your site.
 date: "2018-06-28T00:00:00Z"
 
@@ -15,4 +15,4 @@ header:
   image: ""
 ---
 
-# Titre essai
+## Vous souhaitez allouer votre richesse entre différentes classes d'actifs ? Commencer par faire son inventaire, sans en oublier l'essentiel.
