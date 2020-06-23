@@ -26,9 +26,9 @@ interests:
 
 education:
   courses:
-  - course: Thèse en économie
+  - course: TDoctorat d'économie
     year: 2000
-  - course: Agrégé d'économie et gestion
+  - course: Agrégation d'économie et gestion
     year: 1996
 
 # Social/Academic Networking
