@@ -53,4 +53,4 @@ social:
 # - Visitors
 ---
 
-Un blog académique sur la gestion de patrimoine.
+Un blog académique sur l'épargne, la finance et la gestion de patrimoine.
