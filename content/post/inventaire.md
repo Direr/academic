@@ -1,12 +1,12 @@
 ---
-title: Mettre tout sur la table avant de répartir
-summary: Here we describe how to add a page to your site.
+title: Gérer son patrimoine débute par en faire le grand inventaire
+summary: De l'importance de correctement inventorier sa richesse, sans oublier sa première composante ...
 date: "2018-06-28T00:00:00Z"
 
-reading_time: false  # Show estimated reading time?
-share: false  # Show social sharing links?
-profile: false  # Show author profile?
-comments: false  # Show comments?
+reading_time: true  # Show estimated reading time?
+share: true  # Show social sharing links?
+profile: true  # Show author profile?
+comments: true  # Show comments?
 draft: false
 
 # Optional header image (relative to `static/img/` folder).
