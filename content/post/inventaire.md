@@ -3,6 +3,7 @@ title: Gérer son patrimoine débute par en faire le grand inventaire
 summary: De l'importance de correctement inventorier sa richesse, sans oublier sa première composante ...
 date: "2020-07-19"
 
+math: true
 reading_time: true  # Show estimated reading time?
 share: true  # Show social sharing links?
 profile: true  # Show author profile?
