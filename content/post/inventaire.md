@@ -19,3 +19,12 @@ header:
 ## Vous souhaitez allouer votre richesse entre différentes classes d'actifs ? Commencer par faire son inventaire, sans en oublier l'essentiel.
 
 $$ a=b $$
+
+Emplois  |  Ressources
+----------| ---------- 
+ dépenses | patrimoine courant
+ transmission  | revenus nets
+
+$$
+\dfrac{x^4}{3} = \sum_{i=1}^T
+$$
