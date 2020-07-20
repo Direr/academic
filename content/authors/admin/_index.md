@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Professeur d'économie
+role:    # professeur d'économie
 
 # Organizations/Affiliations
 organizations:
-- name: page professionelle
+- name: page pro
   url: "http://gdre.leo-univ-orleans.fr/direr/index.html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: bio.
+bio: # bio.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -53,4 +53,4 @@ social:
 # - Visitors
 ---
 
-Un blog académique sur l'épargne, la finance et la gestion de patrimoine.
+Un blog académique sur l'épargne, la finance, l'assurance et la gestion de patrimoine.
