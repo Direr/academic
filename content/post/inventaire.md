@@ -16,9 +16,7 @@ header:
   image: ""
 ---
 
-# Gérer son patrimoine commence par en faire le bilan
-
-##  La première étape d'un bilan financier est la simulation de son patrimoine. L'objectif est d'embrasser une vue large de ses actifs, actuels mais aussi à venir.
+##  La première étape d'un bilan financier est la simulation de son patrimoine. L'objectif est d'embrasser une vue large de ses ressources, actuelles mais aussi à venir.
 
 ### Qu'est-ce qu'une simulation de l'épargne?
 
@@ -38,7 +36,8 @@ Le rendement annuel prévu est une moyenne pondérée des rendements prévus sur
 La capacité annuelle d'épargne est la différence entre les revenus annuels nets de toute fiscalité (cotisations sociales, impôt sur le revenu, ...) et les dépenses annuelles.
 La durée de placement doit être suffisamment longue. La date terminale $T$ peut correspondre au pic de patrimoine, le moment où les dépenses d'épargne le revenu, qui peut être la date de départ à la retraite ou au-delà si l'épargnant prévoit de continuer à épargner après la retraite.
 
-Commençons par nous placer dans $T$ années et notons $w_T$ le patrimoine final issu de l'accumulation de l'épargne et la capitalisation des intérêts : <a name="eq1"></a>
+<a name="eq1"></a>
+Commençons par nous placer dans $T$ années et notons $w_T$ le patrimoine final issu de l'accumulation de l'épargne et la capitalisation des intérêts :
 $$
 w_T = (1+r)^T w_0 + (1+r)^{T-1} s_1 \\ + (1+r)^{T-2} s_2 + ... + (1+r) s_{T-1} + s_T
 $$
@@ -51,7 +50,8 @@ Une perspective encore plus instructive consiste à évaluer sa richesse totale 
 
 Figure 1 Capitalisation et actualisation d'un euro sur deux périodes
 ![actualisation des flux](http://gdre.leo-univ-orleans.fr/direr/blog/actualisation.png)
-Actualisons de la richesse accumulée en 30 ans à la date d'aujourd'hui : $W_0 = (1+r)^{-T}w_T$. Cela revient à appliquer l'opération d'actualisation à l'ensemble des flux d'épargne de l'[équation d'accumulation](#eq1) : <a name="eq2"></a>
+<a name="eq2"></a>
+Actualisons de la richesse accumulée en 30 ans à la date d'aujourd'hui : $W_0 = (1+r)^{-T}w_T$. Cela revient à appliquer l'opération d'actualisation à l'ensemble des flux d'épargne de [l'équation d'accumulation](#eq1) :
 $$
 W_0= w_0 + (1+r)^{-1} s_1 + (1+r)^{-2} s_2 + ... + (1+r)^{-T} s_T 
 $$
@@ -62,7 +62,7 @@ La richesse intertemporelle est principalement composée de richesse à venir da
 
 Premièrement, elle permet d'adopter une perspective longue d'accumulation du patrimoine, de manipuler des ordres de grandeur pertinents et de planifier son épargne et sa richesse. Un épargnant qui prend des décisions d'allocation sur la seule base de son patrimoine existant prend le risque d'une gestion à courte vue, faute d'anticiper l'évolution de son patrimoine.
 
-Deuxièmement, la richesse future n'est pas qu'une simple référence hypothétique. Elle peut être partiellement convertie en liquide pour acquérir des biens durables. Reprenons notre exemple et supposons que notre épargnant désire s'endetter pour acheter sa résidence principale. Combien peut-il prétendre emprunter ? La banque lui accordera, après étude de sa capacité d'épargne, un montant déterminée de façon proche de la méthode de calcul de sa [richesse potentielle](#eq2) . Sur les 330 000 euros qu'il peut dégager dans le futur, la banque lui accordera éventuellement 200 000 euros sur 20 ans. Cet écart s'explique par un comportement prudent de la banque et par un changement de deux paramètres dans le calcul de $h$ : la richesse potentielle de l'emprunteur sur 20 ans est plus faible que sur 30 ans et le taux qui actualise l'épargne future est le taux du crédit. Sur 20 ans et un taux débiteur de 2 %, nous obtenons $h$ = 229 000 euros.
+Deuxièmement, la richesse future n'est pas qu'une simple référence hypothétique. Elle peut être partiellement convertie en liquide pour acquérir des biens durables. Reprenons notre exemple et supposons que notre épargnant désire s'endetter pour acheter sa résidence principale. Combien peut-il prétendre emprunter ? La banque lui accordera, après étude de sa capacité d'épargne, un montant déterminée de façon proche de la méthode de calcul de sa [richesse potentielle](#eq2). Sur les 330 000 euros qu'il peut dégager dans le futur, la banque lui accordera éventuellement 200 000 euros sur 20 ans. Cet écart s'explique par un comportement prudent de la banque et par un changement de deux paramètres dans le calcul de $h$ : la richesse potentielle de l'emprunteur sur 20 ans est plus faible que sur 30 ans et le taux qui actualise l'épargne future est le taux du crédit. Sur 20 ans et un taux débiteur de 2 %, nous obtenons $h$ = 229 000 euros.
 
 Enfin, la richesse potentielle est une référence importante pour une bonne allocation de son patrimoine, comme nous le verrons dans le post suivant.
 
@@ -78,7 +78,7 @@ $$
 W_2 = (1+r)^2 w_0 + (1+r) s_1 + s_2 + (1+r)^{-1} s_3  \\ + ... + (1+r)^{-(T-2)} s_T 
 $$
 
-A la fin de sa période d'accumulation, sa richesse intertemporelle est composée en totalité de sa richesse acquise et nous retrouvons la formule de la richesse capitalisée *supra*.
+A la fin de sa période d'accumulation, sa richesse intertemporelle est composée en totalité de sa richesse acquise et nous retrouvons la formule de la [richesse capitalisée](#eq1).
 
 Si nous reprenons notre exemple numérique, la figure 2 indique comment évolue la richesse et ses deux composantes sur le cycle de vie de l'épargnant.
 
