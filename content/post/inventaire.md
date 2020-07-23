@@ -36,7 +36,7 @@ Commençons par poser quelques notations :
 Le patrimoine couvre l'ensemble des composantes de la richesse : livrets et comptes bancaires, épargne retraite, contrats d'assurance vie, immobilier (valeur de marché nette de l'endettement résiduel), compte titres, ...
 Le rendement annuel prévu est une moyenne pondérée des rendements prévus sur les différentes catégories du patrimoine. Le rendement de la propriété de la résidence principale est la somme annuelle des loyers économisés si l'épargnant était locataire, après déduction des intérêts restant dus sur le crédit immobilier, des travaux immobiliers et de la fiscalité sur les biens immobiliers (taxes d'habitation et foncière).
 La capacité annuelle d'épargne est la différence entre les revenus annuels nets de toute fiscalité (cotisations sociales, impôt sur le revenu, ...) et les dépenses annuelles.
-La durée de placement doit être suffisamment longue. La date terminale $T$ peut correspondre au pic de patrimoine, le moment où lles dépenses dépargne le revenu, qui peut être la date de départ à la retraite ou au-delà si l'épargnant prévoit de continuer à épargner après la retraite.
+La durée de placement doit être suffisamment longue. La date terminale $T$ peut correspondre au pic de patrimoine, le moment où les dépenses d'épargne le revenu, qui peut être la date de départ à la retraite ou au-delà si l'épargnant prévoit de continuer à épargner après la retraite.
 
 Commençons par nous placer dans $T$ années et notons $w_T$ le patrimoine final issu de l'accumulation de l'épargne et la capitalisation des intérêts : <a name="eq1"></a>
 $$
@@ -50,8 +50,8 @@ Prenons l'exemple d'un épargnant âgé de 35 ans disposant d'un patrimoine de 3
 Une perspective encore plus instructive consiste à évaluer sa richesse totale non pas dans 35 ans mais *dès aujourd'hui* grâce à la méthode d'actualisation des flux. L'actualisation est l'opération inverse de la capitalisation des flux financiers. Un euro placé pendant deux ans au taux d'intérêt $r$ permet d'obtenir $(1+r)^2$ euros. Inversement, si nous retournons la flèche du temps, $(1+r)^2$ euros disponibles dans deux ans sont équivalents à 1 euros aujourd'hui. Ou 1 euro dans deux ans est équivalent à $(1+r)^{-2}$ euros aujourd'hui. Les deux opérations sont symétriques et représentés dans la Figure 1.
 
 Figure 1 Capitalisation et actualisation d'un euro sur deux périodes
-![actualisation des flux](http://gdre.leo-univ-orleans.fr/direr/blog/actualisation.png =550x140)
-Actualisons de la richesse accumulée en 30 ans à la date d'aujourd'hui : $W_0 = (1+r)^{-T}w_T$.Cela revient à appliquer l'opération d'actualisation à l'ensemble des flux d'épargne de l'[équation d'accumulation](#eq1) : 
+![actualisation des flux](http://gdre.leo-univ-orleans.fr/direr/blog/actualisation.png)
+Actualisons de la richesse accumulée en 30 ans à la date d'aujourd'hui : $W_0 = (1+r)^{-T}w_T$. Cela revient à appliquer l'opération d'actualisation à l'ensemble des flux d'épargne de l'[équation d'accumulation](#eq1) : <a name="eq2"></a>
 $$
 W_0= w_0 + (1+r)^{-1} s_1 + (1+r)^{-2} s_2 + ... + (1+r)^{-T} s_T 
 $$
@@ -62,7 +62,7 @@ La richesse intertemporelle est principalement composée de richesse à venir da
 
 Premièrement, elle permet d'adopter une perspective longue d'accumulation du patrimoine, de manipuler des ordres de grandeur pertinents et de planifier son épargne et sa richesse. Un épargnant qui prend des décisions d'allocation sur la seule base de son patrimoine existant prend le risque d'une gestion à courte vue, faute d'anticiper l'évolution de son patrimoine.
 
-Deuxièmement, la richesse future n'est pas qu'une simple référence hypothétique. Elle peut être partiellement convertie en liquide pour acquérir des biens durables. Reprenons notre exemple et supposons que notre épargnant désire s'endetter pour acheter sa résidence principale. Combien peut-il prétendre emprunter ? La banque lui demandera un apport personnel (par exemple 20 000 euros sur les 30 000 dont il dispose) et lui prêtera, après étude de son dossier et analyse de sa capacité d'épargne, une somme déterminée de façon très proche de la méthode de calcul de sa richesse potentielle. Sur les 330 000 euros qu'il peut dégager dans le futur, la banque lui accordera éventuellement 200 000 euros sur 20 ans. Cet écart s'explique par un comportement prudent de la banque et par un changement de deux paramètres dans le calcul de $h$ : la richesse potentielle de l'emprunteur sur 20 ans est plus faible que sur 30 ans et le taux qui actualise l'épargne future est le taux du crédit. Sur 20 ans et un taux débiteur de 2 %, nous obtenons $h$ = 229 000 euros.
+Deuxièmement, la richesse future n'est pas qu'une simple référence hypothétique. Elle peut être partiellement convertie en liquide pour acquérir des biens durables. Reprenons notre exemple et supposons que notre épargnant désire s'endetter pour acheter sa résidence principale. Combien peut-il prétendre emprunter ? La banque lui accordera, après étude de sa capacité d'épargne, un montant déterminée de façon proche de la méthode de calcul de sa [richesse potentielle](#eq2) . Sur les 330 000 euros qu'il peut dégager dans le futur, la banque lui accordera éventuellement 200 000 euros sur 20 ans. Cet écart s'explique par un comportement prudent de la banque et par un changement de deux paramètres dans le calcul de $h$ : la richesse potentielle de l'emprunteur sur 20 ans est plus faible que sur 30 ans et le taux qui actualise l'épargne future est le taux du crédit. Sur 20 ans et un taux débiteur de 2 %, nous obtenons $h$ = 229 000 euros.
 
 Enfin, la richesse potentielle est une référence importante pour une bonne allocation de son patrimoine, comme nous le verrons dans le post suivant.
 
@@ -84,12 +84,5 @@ Si nous reprenons notre exemple numérique, la figure 2 indique comment évolue 
 
 Figure 2 Évolution de la richesse et de sa composition sur le cycle de vie
 
-![évolution de la composition du patrimoine](http://gdre.leo-univ-orleans.fr/direr/blog/composition.png =550x350)
-
 ![évolution de la composition du patrimoine](http://gdre.leo-univ-orleans.fr/direr/blog/composition.png)
-
-![évolution de la composition du patrimoine](/static/img/composition.png)
-
-![évolution de la composition du patrimoine](/static/img/composition.png =550x350)
-
 En début de cycle de vie, l'épargnant dispose essentiellement d'une richesse potentielle qu'il convertit progressivement en richesse acquise. La richesse intertemporelle et la richesse acquise augmente de façon légèrement exponentielle avec la capitalisation des intérêts de 1 %. Même un un rendement de 1 % sur le patrimoine est important une fois capitalisée sur 30 ans. La richesse finale ne serait que de 416 500 euros avec un rendement nul au lieu de 485 000 euros.
