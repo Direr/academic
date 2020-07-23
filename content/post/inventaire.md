@@ -83,6 +83,13 @@ A la fin de sa période d'accumulation, sa richesse intertemporelle est composé
 Si nous reprenons notre exemple numérique, la figure 2 indique comment évolue la richesse et ses deux composantes sur le cycle de vie de l'épargnant.
 
 Figure 2 Évolution de la richesse et de sa composition sur le cycle de vie
+
 ![évolution de la composition du patrimoine](http://gdre.leo-univ-orleans.fr/direr/blog/composition.png =550x350)
+
+![évolution de la composition du patrimoine](http://gdre.leo-univ-orleans.fr/direr/blog/composition.png)
+
+![évolution de la composition du patrimoine](/static/img/composition.png)
+
+![évolution de la composition du patrimoine](/static/img/composition.png =550x350)
 
 En début de cycle de vie, l'épargnant dispose essentiellement d'une richesse potentielle qu'il convertit progressivement en richesse acquise. La richesse intertemporelle et la richesse acquise augmente de façon légèrement exponentielle avec la capitalisation des intérêts de 1 %. Même un un rendement de 1 % sur le patrimoine est important une fois capitalisée sur 30 ans. La richesse finale ne serait que de 416 500 euros avec un rendement nul au lieu de 485 000 euros.
