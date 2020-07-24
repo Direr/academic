@@ -50,10 +50,9 @@ Prenons l'exemple d'un épargnant âgé de 35 ans disposant d'un patrimoine de 3
 
 ### Simuler le patrimoine actuel et futur
 
-Une perspective encore plus instructive consiste à évaluer sa richesse totale non pas dans 30 ans mais *dès aujourd'hui* grâce à la méthode d'actualisation des flux. L'actualisation est l'opération inverse de la capitalisation. Un euro placé pendant deux ans au taux d'intérêt $r$ permet d'obtenir $1+r$ euros la première année$. Cette somme permet d'obtenir $(1+r) \times (1+r) = (1+r)^2$ euros deux ans plus tard. Inversement, si nous retournons la flèche du temps, $(1+r)^2$ euros disponibles dans deux ans sont équivalents à 1 euro aujourd'hui. Ou 1 euro dans deux ans est équivalent à $\dfrac{1}{(1+r)^2} = (1+r)^{-2}$ euro aujourd'hui. Les deux opérations sont symétriques et représentées dans la Figure 1.
+Une perspective encore plus instructive consiste à évaluer sa richesse totale non pas dans 30 ans mais *dès aujourd'hui* grâce à la méthode d'actualisation des flux. L'actualisation est l'opération inverse de la capitalisation. Un euro placé pendant deux ans au taux d'intérêt $r$ permet d'obtenir $1+r$ euros la première année. Cette somme permet d'obtenir $(1+r) \times (1+r) = (1+r)^2$ euros deux ans plus tard. Inversement, si nous retournons la flèche du temps, $(1+r)^2$ euros disponibles dans deux ans sont équivalents à 1 euro aujourd'hui. Ou 1 euro dans deux ans est équivalent à $\dfrac{1}{(1+r)^2} = (1+r)^{-2}$ euro aujourd'hui. Les deux opérations sont symétriques et représentées dans la Figure 1.
 
 Figure 1 Capitalisation et actualisation d'un euro sur deux périodes
-<!!-- [actualisation des flux](http://gdre.leo-univ-orleans.fr/direr/blog/actualisation.png) -->
 ![actualisation des flux](https://i.ibb.co/8jgM0bY/actualisation.png)
 <a name="eq2"></a>
 Actualisons de la richesse accumulée en $T$ années à la date d'aujourd'hui : $W_0 = (1+r)^{-T}w_T$. Cela revient à appliquer l'opération d'actualisation à l'ensemble des flux d'épargne de [l'équation d'accumulation](#eq1) :
@@ -97,4 +96,4 @@ Figure 2 Évolution de la richesse et de sa composition sur le cycle de vie
 
 En début de cycle de vie, l'épargnant dispose essentiellement d'une richesse potentielle qu'il convertit progressivement en richesse acquise. La richesse intertemporelle et la richesse acquise augmente de façon légèrement exponentielle avec la capitalisation des intérêts. Même un rendement de 1 % sur le patrimoine compte une fois capitalisé sur 30 ans. La richesse finale serait de 416 500 euros avec un rendement nul au lieu de 485 000 euros avec un rendement positif.
 
-[Simulez votre patrimoine actualisé](https://direr.shinyapps.io/R_shiny_blog_01/).
+[Simulez vous-même votre patrimoine](https://direr.shinyapps.io/R_shiny_blog_01/).
